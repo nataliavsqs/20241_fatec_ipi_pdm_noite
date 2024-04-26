@@ -16,6 +16,7 @@ export default class Busca extends Component {
             <InputText
               className='w-full h-100' 
               placeholder={this.props.dica}
+              onChange= {this.onTermoAlterado}
               />
           </IconField>
         </div>
